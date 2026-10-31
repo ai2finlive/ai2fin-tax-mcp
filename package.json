@@ -12,6 +12,6 @@
   },
   "keywords": ["mcp", "model-context-protocol", "tax", "gst", "vat", "income-tax", "capital-gains", "finance"],
   "homepage": "https://taxmcp.ai2fin.com",
-  "repository": { "type": "git", "url": "git+https://github.com/embracingearth-space/2fin-tax-mcp.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/embracingearth-space/ai2fin-tax-mcp.git" },
   "license": "MIT"
 }
