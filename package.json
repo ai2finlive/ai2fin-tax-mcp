@@ -1,0 +1,17 @@
+{
+  "name": "2fin-tax-mcp",
+  "version": "0.6.0",
+  "description": "2Fin Tax MCP: free, no-auth GST/VAT, income, company and capital-gains tax tools for AI assistants, source-cited to each national tax authority. Hosted at taxmcp.ai2fin.com; this package is the stdio connector.",
+  "type": "module",
+  "bin": { "2fin-tax-mcp": "bin/stdio-proxy.mjs" },
+  "files": ["bin/"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node bin/stdio-proxy.mjs",
+    "test": "node --test test/proxy.test.mjs"
+  },
+  "keywords": ["mcp", "model-context-protocol", "tax", "gst", "vat", "income-tax", "capital-gains", "finance"],
+  "homepage": "https://taxmcp.ai2fin.com",
+  "repository": { "type": "git", "url": "git+https://github.com/embracingearth-space/2fin-tax-mcp.git" },
+  "license": "MIT"
+}
