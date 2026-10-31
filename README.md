@@ -48,7 +48,7 @@ All tools are read-only and idempotent, and each declares an output schema.
 ```json
 {
   "mcpServers": {
-    "2fin-tax": { "command": "npx", "args": ["-y", "github:embracingearth-space/ai2fin-tax-mcp"] }
+    "2fin-tax": { "command": "npx", "args": ["-y", "github:ai2finlive/ai2fin-tax-mcp"] }
   }
 }
 ```
